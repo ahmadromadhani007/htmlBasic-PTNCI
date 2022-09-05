@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<		<title>Form Training </title>
+			</head>
+		<body>
+			<form name="formLatihan" method="GET" action="#">
+			<table border="0" align="center" cellpadding="15" width="40%">
+				<thead>
+					<tr bgcolor="pink">
+						<th colspan="2">Form Training</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td width="25%"><label>Nama</label></td>
+						<td>
+							<input type="text" name="nama" value="" placeholder="Full Names"
+									size="50" maxlength="100"/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label>Email</label></td>
+						<td>
+							<input type="text" name="email" value="" placeholder="Address Mails"
+									size="50" maxlength="100"/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label>Gender</label></td>
+						<td>
+							<input type="radio" name="gender" value="M" checked/>Man&nbsp;&nbsp;
+							<input type="radio" name="gender" value="W"/>Woman
+						</td>
+					</tr>
+					
+					<tr>
+						<td valign="top"><label>Hobbies<label></td>
+						<td>
+							<input type="checkbox" name="hooby" value="Reading"/>Reading</br>
+							<input type="checkbox" name="hooby" value="Sport"/>Sport</br>
+							<input type="checkbox" name="hooby" value="Eating"/>Eating</br>
+							<input type="checkbox" name="hooby" value="Sleeping" checked/>Sleeping</br>
+							<input type="checkbox" name="hooby" value="Typing"/>Typing</br>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label>Education</label></td>
+						<td>
+							<select name="Education">
+								<option value="">== Chose your educations ==</option>
+								<option value="ES">Elemelantary Schooll</option>
+								<option value="JHS">Junior High Schooll</option>
+								<option value="VHS" selected>Vocational High Schooll</option>
+								<option value="UNV">University</option>
+							</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td valign=""top><label>Commentary</label></td>
+						<td>
+							<textarea name="comentar" cols="50" rows="5">What's your commentary ?</textarea>
+						</td>
+					</tr>
+				</tbody>
+				
+				<tfoot>
+					<tr bgcolor="pink">
+						<th colspan="2">
+							<input type="submit" name="process" value="submit" />&nbsp;&nbsp;
+							<input type="reset" name="unproses" value="cancel" />
+						</th>
+					</tr>
+				</tfoot>
+			</table>
+		</form>
+	</body>
+</html>

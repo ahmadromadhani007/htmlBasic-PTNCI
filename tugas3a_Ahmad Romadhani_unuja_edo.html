@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<		<title>Form Products </title>
+			</head>
+		<body>
+			<form name="formProducts" method="GET" action="#">
+			<table border="0" align="center" cellpadding="15" width="50%">
+				<thead>
+					<tr bgcolor="Gray">
+						<th colspan="2">Form Register Produk</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td width="25%"><label>Nama Produk</label></td>
+						<td>
+							<input type="text" name="nama produk" value="" placeholder=""
+									size="50" maxlength="100"/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label>Jenis Produk</label></td>
+						<td>
+							<select name="jenis produk">
+								<option value="" selected>== Kategori Produk ==</option>
+								<option value="SMT">Smartphone</option>
+								<option value="PAM">Shampoo</option>
+								<option value="PPP">Kertas HVS</option>
+								<option value="KMP">Kompor Gas</option>
+							</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label>Harga</label></td>
+						<td>
+							<input type="text" name="harga" value="" placeholder=""
+									size="50" maxlength="100"/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label>Stok</label></td>
+						<td>
+							<input type="text" name="stok" value="" placeholder=""
+									size="50" maxlength="100"/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td><label>Photo</label></td>
+						<td>
+							<input type="text" name="photo" value="" placeholder=""
+									size="50" maxlength="100"/>
+						</td>
+					</tr>
+				</tbody>
+				
+			<tfoot>
+					<tr bgcolor="LightGray">
+						<th colspan="2">
+							<input type="submit" name="process" value="kirim" />&nbsp;&nbsp;
+							<input type="reset" name="unproses" value="batal" />
+						</th>
+					</tr>
+				</tfoot>
+			</table>
+		</form>
+	</body>
+</html>
